@@ -1,6 +1,6 @@
 # Kesimpulan hasil analisis dataset Video Game Sales
 
-1. Dataset memiliki lebih dari 11000 games yang berbeda, dengan 31 platform mereka dirilis, 12 genre, dan 578 publisher.
+1. Dataset memiliki lebih dari 16000 games yang berbeda, dengan 31 platform mereka dirilis, 12 genre, dan 578 publisher.
 2. Rata-rata penjualan secara global dari berbagai games dalam dataset adalah 0.53~, dengan beberapa mencapai lebih dari 10 juta penjualan dan satu game mencapai lebih dari 50 juta.
 3. Terdapat sebuah ketidakseimbangan dalam penjualan, khususnya beberapa game lebih dominan dibeli di daerah NA (North America), dengan EU (Europe) mengekor.
 4. Genre yang memiliki penjualan tertinggi dari semua game terdapat di genre Action, dengan Sports dan Miscellaneous mengikuti di nomor 2 dan 3 secara berurutan. Genre yang memiliki penjualan paling sedikit adalah Puzzle.
@@ -12,4 +12,5 @@
 # Attributions
 
 This analysis was made with the dataset from the link below.
+
 https://www.kaggle.com/datasets/gregorut/videogamesales

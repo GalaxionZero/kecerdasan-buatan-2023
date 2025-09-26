@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 df = pd.read_csv('vgsales.csv')
+
 numeric_df = df.select_dtypes(include=['number'])
 
 # Tampilkan rata-rata, standar deviasi, nilai minimum, nilai maksimum, Q1, Q2, dan Q3 dari attribute bertipe angka.
@@ -23,6 +24,7 @@ print("\n")
 # Tampilkan jumlah label dari semua attribute yang bernilai object (contoh : Jenis Kelamin, Agama).
 print(df.select_dtypes(include=['object']).nunique())
 print("\n")
+
 
 # Visualisasi data kategorikal genre menggunakan bar 
 plt.figure(figsize=(10,6))
