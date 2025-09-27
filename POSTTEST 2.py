@@ -3,7 +3,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 df = pd.read_csv('vgsales.csv')
-
 numeric_df = df.select_dtypes(include=['number'])
 
 # Tampilkan rata-rata, standar deviasi, nilai minimum, nilai maksimum, Q1, Q2, dan Q3 dari attribute bertipe angka.
